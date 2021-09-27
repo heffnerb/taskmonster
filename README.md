@@ -7,7 +7,7 @@
 
 > A todo application built with Vanilla Javascript
 
-### 🏠 [Homepage](https://github.com/heffnerb/taskmonster)
+### 🏠 [Website](https://heffnerb.github.io/taskmonster/)
 
 ## Author
 

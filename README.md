@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> A todo application
+> A todo application built with Vanilla Javascript
 
 ### 🏠 [Homepage](https://github.com/heffnerb/taskmonster)
 

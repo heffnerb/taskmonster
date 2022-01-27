@@ -18,6 +18,7 @@ function handleClickDeleteOrCheck(e) {
     if (e.target.name == 'checkButton') {
         checkTodo(e);
     }
+    
     if (e.target.name == 'deleteButton') {
         deleteTodo(e);
     }

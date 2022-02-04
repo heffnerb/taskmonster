@@ -1,9 +1,7 @@
-// Selectors
 document.querySelector('form').addEventListener('submit', handleSubmitForm);
 document.querySelector('ul').addEventListener('click', handleClickDeleteOrCheck);
 document.getElementById('clearAll').addEventListener('click', handleClearAll)
 
-// Event Handlers
 function handleSubmitForm(e) {
     e.preventDefault();
     let input = document.querySelector('input');
@@ -28,7 +26,6 @@ function handleClearAll(e) {
     document.querySelector('ul').innerHTML = '';
 }
 
-// Helpers
 function addTodo(todo) {
     let ul = document.querySelector('ul');
     let li = document.createElement('li');

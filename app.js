@@ -30,7 +30,7 @@ function handleClearAll(e) {
 function addTodo(todo) {
     let ul = document.querySelector('ul');
     let li = document.createElement('li');
-
+    
     li.innerHTML = `
         <span class="todo-item">${todo}</span>
         <button name="checkButton"><i class="fas fa-check-square"></i></button>
@@ -43,6 +43,7 @@ function addTodo(todo) {
 function checkTodo(e) {
 
     let item = e.target.parentNode
+    
     if (item.style.textDecoration == 'line-through') {
         item.style.textDecoration = 'none'
     } else {

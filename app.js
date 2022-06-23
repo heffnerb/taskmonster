@@ -37,11 +37,11 @@ function addTodo(todo) {
         <button name="deleteButton" ><i class="fas fa-trash"></i></button>
     `;
     li.classList.add('todo-list-item');
+    
     ul.appendChild(li);
 }
 
 function checkTodo(e) {
-
     let item = e.target.parentNode
     
     if (item.style.textDecoration == 'line-through') {
